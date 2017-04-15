@@ -15,6 +15,7 @@
 		E3E6BB4A1E9FF83300119659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E6BB481E9FF83300119659 /* LaunchScreen.storyboard */; };
 		E3E6BB551E9FF83300119659 /* SoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6BB541E9FF83300119659 /* SoundboardTests.swift */; };
 		E3E6BB601E9FF83300119659 /* SoundboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6BB5F1E9FF83300119659 /* SoundboardUITests.swift */; };
+		E3E6BB6E1E9FF9E100119659 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6BB6D1E9FF9E000119659 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E3E6BB5B1E9FF83300119659 /* SoundboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E6BB5F1E9FF83300119659 /* SoundboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardUITests.swift; sourceTree = "<group>"; };
 		E3E6BB611E9FF83300119659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E6BB6D1E9FF9E000119659 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				E3E6BB3C1E9FF83300119659 /* AppDelegate.swift */,
 				E3E6BB3E1E9FF83300119659 /* ViewController.swift */,
 				E3E6BB401E9FF83300119659 /* Main.storyboard */,
+				E3E6BB6D1E9FF9E000119659 /* SoundViewController.swift */,
 				E3E6BB461E9FF83300119659 /* Assets.xcassets */,
 				E3E6BB481E9FF83300119659 /* LaunchScreen.storyboard */,
 				E3E6BB4B1E9FF83300119659 /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E6BB6E1E9FF9E100119659 /* SoundViewController.swift in Sources */,
 				E3E6BB3F1E9FF83300119659 /* ViewController.swift in Sources */,
 				E3E6BB451E9FF83300119659 /* Soundboard.xcdatamodeld in Sources */,
 				E3E6BB3D1E9FF83300119659 /* AppDelegate.swift in Sources */,
